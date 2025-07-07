@@ -1,0 +1,15 @@
+header nav ul{
+    background-color: #333;
+    display: flex;
+}
+header nav ul li{
+    list-style: none;
+    padding: 10px 13px;
+}
+header nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+header nav ul li:hover{
+    background-color: #111;
+}
