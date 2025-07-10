@@ -23,7 +23,7 @@
     font-size: 20px;
     font-weight: bold;
     font-size: 20px;
-    padding: 19px 17px;
+    padding: 15px 25px;
     border: none;
     color: white;
     background-color: #FD6E0A;
@@ -83,7 +83,7 @@ nav ul li a{
 
 /*Header Banner css Start*/
 .header{
-    background-image: url('/images/developer.png'), url('/images/header_bg.png');
+    background-image: url('images/developer.png'), url('images/header_bg.png');
     background-repeat: no-repeat;
     background-position: top left, bottom right;
 }
@@ -116,7 +116,7 @@ header .name-title{
 .about-section{
     background-color: #FFF8F3;
     margin: auto;
-    width: 60%;
+    width: 65%;
     text-align: center;
     padding: 130px;
     margin-top: 100px;
@@ -140,3 +140,122 @@ header .name-title{
     font-weight: bold;
 }
 /*About Me css End*/
+
+/* skills section css start */
+.my-skills{
+    width: 65%;
+    margin: auto;
+}
+.skills-title-des{
+    margin: 50px 50px 15px 50px;
+    text-align: center;
+}
+.skill-items{
+    display: flex;
+    align-items: left;
+}
+.skills{
+    width: 25%;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+.skills img{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.skill-title{
+    padding-bottom: 10px;
+}
+.skill-description{
+    padding-top: 10px;
+}
+/* skills section css end */
+
+/* resume section css start */
+.resume-summary{
+    width: 65%;
+    margin: 0 auto;
+}
+.resume-container{
+    display: flex;
+}
+.resume-summary-title{
+    font-size: 35px;
+    font-weight: 700;
+    text-align: center;
+    margin: 70px;
+}
+.edu-experience{
+    width: 50%;
+    margin-right: 20px;
+}
+.eduexp-column-title{
+    color: #474747;
+    font-size: 30px;
+    font-weight: 700;
+}
+.eduexp-column{
+    margin: 15px 20px 10px 0px;
+}
+.edu-exp-title{
+    color: #474747;
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.edu-exp-subtitle{
+    color: #757575;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+.edu-exp-description{
+    color: #757575;
+    font-size: 16px;
+    padding-right: 15px;
+}
+.cv-button{
+    text-align: center;
+    margin-top: 20px;
+}
+/* resume section css end */
+
+/* footer section css start */
+.footer{
+    background-color: #FFF8F3;
+    display: flex;
+    padding: 130px 230px;
+    gap: 100px;
+    margin-top: 70px;
+}
+.footer-column{
+    display: block;
+    width: 50%;
+}
+.fcolumn-title{
+    font-size: 35px;
+    font-weight: 700;
+}
+.fcolumn-text{
+    font-size: 16px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.footer-social a{
+    padding: 5px;
+}
+footer input[type="text"], footer input[type="email"], footer textarea{
+    display: block;
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    color: #757575;
+    background-color: #ffffff;
+    height: 60px;
+    padding-left: 10px;
+    margin-bottom: 15px;
+    font-size: 16px;
+}
+/* footer section css end */
